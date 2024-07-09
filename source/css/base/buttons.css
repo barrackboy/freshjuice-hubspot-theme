@@ -13,13 +13,13 @@
   @apply fj-whitespace-nowrap;
   @apply fj-align-middle;
   @apply fj-select-none;
-  @apply fj-rounded-md;
+  @apply fj-rounded-full;
   @apply fj-text-base;
   @apply fj-tracking-wider;
   @apply fj-uppercase;
 
-  @apply fj-bg-blue-600 fj-text-white hover:fj-bg-blue-500 hover:fj-text-white;
-  @apply fj-border-2 fj-border-blue-600 hover:fj-border-blue-500;
+  @apply fj-bg-gray-900 fj-text-white hover:fj-bg-gray-600 hover:fj-text-white;
+  @apply fj-border-2 fj-border-gray-900 hover:fj-border-gray-600;
 
   &.secondary {
     @apply fj-bg-white fj-text-blue-600 hover:fj-bg-blue-600 hover:fj-text-white;
